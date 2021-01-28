@@ -62,7 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Script_ButtonHit.cs" />
     <Compile Include="Assets\Scripts\Script_DeleteBlock.cs" />
+    <Compile Include="Assets\Scripts\Script_MoveLaser.cs" />
+    <Compile Include="Assets\Scripts\Script_Reload.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Justin/Desktop/School stuff/Game Studio/Project 1 repo/Cat Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

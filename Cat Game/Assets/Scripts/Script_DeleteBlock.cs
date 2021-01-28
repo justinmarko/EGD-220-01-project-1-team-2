@@ -4,15 +4,8 @@ using UnityEngine;
 
 public class Script_DeleteBlock : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void delete()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Destroy(gameObject);
     }
 }
