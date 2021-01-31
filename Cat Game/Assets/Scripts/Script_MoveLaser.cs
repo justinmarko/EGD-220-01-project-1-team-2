@@ -17,16 +17,4 @@ public class Script_MoveLaser : MonoBehaviour
     {
         transform.position += new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0) * Time.deltaTime * MovementSpeed;
     }
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-       
-        if (collision.gameObject.tag == "Block")
-        {
-            if (Input.GetKeyDown("space"))
-            {
-                collision.gameObject.GetComponent<Script_DeleteBlock>().delete();
-            }
-        }
-    }
 }
