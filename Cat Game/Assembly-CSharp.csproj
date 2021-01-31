@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Script_DeleteBlock.cs" />
     <Compile Include="Assets\Scripts\Script_MoveLaser.cs" />
     <Compile Include="Assets\Scripts\Script_NextScene.cs" />
+    <Compile Include="Assets\Scripts\Script_Quit.cs" />
     <Compile Include="Assets\Scripts\Script_Reload.cs" />
     <Compile Include="Assets\Scripts\Script_Shoot.cs" />
     <Reference Include="Unity.Timeline.Editor">
